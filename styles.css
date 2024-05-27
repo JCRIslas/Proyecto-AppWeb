@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo {
+    margin: 50px 0;
+    width: 100%;
+    height: 200px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+form {
+    /* background-color: red; */
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form h1 {
+    font-size: 3.5rem;
+}
+
+section {
+    /* background-color: red; */
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section .datos {
+    width: 300px;
+    height: 40px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.datos input {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    /* box-shadow: 0 -1px #000; */
+    width: 100%;
+    background-color: #B6DCCE;
+}
+
+.datos input::placeholder {
+    text-align: center;
+}
+
+.boton {
+    width: 300px;
+    /* background-color: #fff; */
+}
+
+.boton button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+    margin: 10px 0;
+}
+
+form section hr {
+    border: 0;
+    height: 2px;
+    width: 60%;
+    background-color: #ADADAD;
+    margin: 40px 0;
+}
+a{
+    color: #244439;
+    text-decoration: none;
+}
